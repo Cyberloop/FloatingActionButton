@@ -4,7 +4,7 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.AbsListView;
 
-abstract class AbsListViewScrollDetector implements AbsListView.OnScrollListener {
+public abstract class AbsListViewScrollDetector implements AbsListView.OnScrollListener {
     private int mLastScrollY;
     private int mPreviousFirstVisibleItem;
     private AbsListView mListView;
